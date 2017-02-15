@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="generalFormatting" name="baseCodeStyle" value="java/Java Standard.codestyle"/>
+  <property category="generalFormatting2" name="blockIndent" value="4"/>
+  <property category="generalFormatting2" name="continuationIndent" value="8"/>
+  <property category="generalFormatting2" name="overrideBasicFormatting" value="1"/>
+  <property category="javaFormatting" name="alignMultilineAssign" value="1"/>
+  <property category="javaFormatting" name="arrayInitDataOnNewLine" value="0"/>
+  <property category="javaFormatting" name="blankLinesAfterClass" value="2"/>
+  <property category="javaFormatting" name="catchOnNewLine" value="0"/>
+  <property category="javaFormatting" name="elseOnNewLine" value="0"/>
+  <property category="javaFormatting" name="extendsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="finallyOnNewLine" value="0"/>
+  <property category="javaFormatting" name="implementsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="indentCase" value="0"/>
+  <property category="javaFormatting" name="packagePrefixGroups" value="java;BLANK_LINE;javax;BLANK_LINE;(*)"/>
+  <property category="javaFormatting" name="preservedBlankLinesInDecl" value="2"/>
+  <property category="javaFormatting" name="spaceBeforeLparen" value="0"/>
+  <property category="javaFormatting" name="whileOnNewLine" value="0"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="runtime" name="ConfigurationCount" value="7"/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.0" name="ConfigurationName" value="xor teach saveas"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.0" name="application.parameters" value="-S sssdEBUG.xml -t 0.001"/>
+  <property category="runtime.1" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.1" name="ConfigurationName" value="xor record"/>
+  <property category="runtime.1" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.1" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.1" name="application.parameters" value="-r 2 -R -v"/>
+  <property category="runtime.2" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.2" name="ConfigurationName" value="nnt args"/>
+  <property category="runtime.2" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.2" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.2" name="application.parameters" value="-a 20 m 200 high"/>
+  <property category="runtime.3" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.3" name="ConfigurationName" value="server!"/>
+  <property category="runtime.3" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.3" name="application.class" value="com.weighscore.neuro.server.nns"/>
+  <property category="runtime.3" name="application.parameters" value="-p 3333 -g"/>
+  <property category="runtime.4" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.4" name="ConfigurationName" value="nnt noargs try"/>
+  <property category="runtime.4" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.4" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.5" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.5" name="ConfigurationName" value="remote commandline ask"/>
+  <property category="runtime.5" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.5" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.5" name="application.parameters" value="-a -n neuro://localhost:3333/savexor1.xml 1 1"/>
+  <property category="runtime.6" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.6" name="ConfigurationName" value="nnt args xor"/>
+  <property category="runtime.6" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.6" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.6" name="application.parameters" value="-S ssss.xml"/>
+  <property category="runtime.7" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.7" name="ConfigurationName" value="nnt alfatrygrow"/>
+  <property category="runtime.7" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.7" name="application.class" value="com.weighscore.neuro.nnt"/>
+  <property category="runtime.7" name="application.parameters" value="-t 7"/>
+  <property category="serverservices" name="disabled.services" value="jdatastore"/>
+  <property category="serverservices" name="single.server.name" value=""/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value="Vsetech"/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2006"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_04-b05"/>
+  <property category="sys" name="JvmVersion" value="1.2"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="CSV JDBC"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <node name="weighscore" type="NavigationDirectory">
+    <property category="directorynode" name="url" value="."/>
+  </node>
+  <node name="Archive Enterprise" type="Archive">
+    <property category="archiving" name="contentRules.1" value="F:weighscore/weighscore-ecli.jar;weighscore/weighscore-ecli.jar"/>
+    <property category="archiving" name="contentRules.10" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/SimpleTeacher.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/SimpleTeacher.html"/>
+    <property category="archiving" name="contentRules.11" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/AverageGradientStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/AverageGradientStatistic.java"/>
+    <property category="archiving" name="contentRules.12" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/LastErrorStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/LastErrorStatistic.java"/>
+    <property category="archiving" name="contentRules.13" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/Linear.java;weighscore/bonus/src/com/weighscore/neuro/plugins/Linear.java"/>
+    <property category="archiving" name="contentRules.14" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/MomentumStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/MomentumStatistic.java"/>
+    <property category="archiving" name="contentRules.15" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/NoStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/NoStatistic.java"/>
+    <property category="archiving" name="contentRules.16" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/Sigmoid.java;weighscore/bonus/src/com/weighscore/neuro/plugins/Sigmoid.java"/>
+    <property category="archiving" name="contentRules.17" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/SimpleTeacher.java;weighscore/bonus/src/com/weighscore/neuro/plugins/SimpleTeacher.java"/>
+    <property category="archiving" name="contentRules.18" value="F:weighscore/data/simpleApp.csv;weighscore/data/simpleApp.csv"/>
+    <property category="archiving" name="contentRules.19" value="F:weighscore/data/xor.csv;weighscore/data/xor.csv"/>
+    <property category="archiving" name="contentRules.2" value="F:weighscore/nnt.config;weighscore/nnt.config"/>
+    <property category="archiving" name="contentRules.20" value="F:weighscore/docs/releasenotes.txt;weighscore/docs/releasenotes.txt"/>
+    <property category="archiving" name="contentRules.21" value="F:weighscore/docs/wsuserman.pdf;weighscore/docs/wsuserman.pdf"/>
+    <property category="archiving" name="contentRules.22" value="F:weighscore/nets/NeuralNetwork.dtd;weighscore/nets/NeuralNetwork.dtd"/>
+    <property category="archiving" name="contentRules.23" value="F:weighscore/nets/NeuralNetwork.nn;weighscore/nets/NeuralNetwork.nn"/>
+    <property category="archiving" name="contentRules.24" value="F:weighscore/csvjdbc/CsvJdbcLogo.jpg;weighscore/csvjdbc/CsvJdbcLogo.jpg"/>
+    <property category="archiving" name="contentRules.25" value="F:weighscore/csvjdbc/license.txt;weighscore/csvjdbc/license.txt"/>
+    <property category="archiving" name="contentRules.26" value="F:weighscore/csvjdbc/readme.html;weighscore/csvjdbc/readme.html"/>
+    <property category="archiving" name="contentRules.27" value="F:weighscore/csvjdbc/releasenotes.html;weighscore/csvjdbc/releasenotes.html"/>
+    <property category="archiving" name="contentRules.28" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvConnection.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvConnection.java"/>
+    <property category="archiving" name="contentRules.29" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDatabaseMetaData.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDatabaseMetaData.java"/>
+    <property category="archiving" name="contentRules.3" value="F:weighscore/license.nns.txt;weighscore/license.nns.txt"/>
+    <property category="archiving" name="contentRules.30" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDriver.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDriver.java"/>
+    <property category="archiving" name="contentRules.31" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvReader.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvReader.java"/>
+    <property category="archiving" name="contentRules.32" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVReaderAdapter.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVReaderAdapter.java"/>
+    <property category="archiving" name="contentRules.33" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSet.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSet.java"/>
+    <property category="archiving" name="contentRules.34" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSetMetaData.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSetMetaData.java"/>
+    <property category="archiving" name="contentRules.35" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVScrollableReader.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVScrollableReader.java"/>
+    <property category="archiving" name="contentRules.36" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvStatement.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvStatement.java"/>
+    <property category="archiving" name="contentRules.37" value="F:weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/SqlParser.java;weighscore/csvjdbc/src/src/java/org/relique/jdbc/csv/SqlParser.java"/>
+    <property category="archiving" name="contentRules.38" value="F:weighscore/readme.txt;weighscore/readme.txt"/>
+    <property category="archiving" name="contentRules.39" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Activation.html;weighscore/bonus/javadoc/com/weighscore/neuro/Activation.html"/>
+    <property category="archiving" name="contentRules.4" value="F:weighscore/weighscore-server.jar;weighscore/weighscore-server.jar"/>
+    <property category="archiving" name="contentRules.40" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Signal.html;weighscore/bonus/javadoc/com/weighscore/neuro/Signal.html"/>
+    <property category="archiving" name="contentRules.41" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Statistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/Statistic.html"/>
+    <property category="archiving" name="contentRules.42" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Teacher.html;weighscore/bonus/javadoc/com/weighscore/neuro/Teacher.html"/>
+    <property category="archiving" name="contentRules.43" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/ParameterHolder.html;weighscore/bonus/javadoc/com/weighscore/neuro/ParameterHolder.html"/>
+    <property category="archiving" name="contentRules.44" value="F:weighscore/nets/simpleApp.nn;weighscore/nets/simpleApp.nn"/>
+    <property category="archiving" name="contentRules.45" value="F:weighscore/docs/jws-howto.txt;weighscore/docs/jws-howto.txt"/>
+    <property category="archiving" name="contentRules.46" value="F:weighscore/jws/neural.jws;weighscore/jws/neural.jws"/>
+    <property category="archiving" name="contentRules.47" value="F:weighscore/csvjdbc/csvjdbc.jar;weighscore/csvjdbc/csvjdbc.jar"/>
+    <property category="archiving" name="contentRules.5" value="F:weighscore/neural.config;weighscore/neural.config"/>
+    <property category="archiving" name="contentRules.6" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/LastErrorStatistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/LastErrorStatistic.html"/>
+    <property category="archiving" name="contentRules.7" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Linear.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Linear.html"/>
+    <property category="archiving" name="contentRules.8" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/MomentumStatistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/MomentumStatistic.html"/>
+    <property category="archiving" name="contentRules.9" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Sigmoid.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Sigmoid.html"/>
+    <property category="archiving" name="includeManifest" value="0"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore/arch/weighscore-ent.zip"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Archive Personal" type="Archive">
+    <property category="archiving" name="buildWithProject" value="0"/>
+    <property category="archiving" name="contentRules.1" value="F:weighscore/weighscore-cli.jar;weighscore/weighscore-cli.jar"/>
+    <property category="archiving" name="contentRules.10" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/LastErrorStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/LastErrorStatistic.java"/>
+    <property category="archiving" name="contentRules.11" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/Linear.java;weighscore/bonus/src/com/weighscore/neuro/plugins/Linear.java"/>
+    <property category="archiving" name="contentRules.12" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/MomentumStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/MomentumStatistic.java"/>
+    <property category="archiving" name="contentRules.13" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/NoStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/NoStatistic.java"/>
+    <property category="archiving" name="contentRules.14" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/Sigmoid.java;weighscore/bonus/src/com/weighscore/neuro/plugins/Sigmoid.java"/>
+    <property category="archiving" name="contentRules.15" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/SimpleTeacher.java;weighscore/bonus/src/com/weighscore/neuro/plugins/SimpleTeacher.java"/>
+    <property category="archiving" name="contentRules.16" value="F:weighscore/data/simpleApp.csv;weighscore/data/simpleApp.csv"/>
+    <property category="archiving" name="contentRules.17" value="F:weighscore/data/xor.csv;weighscore/data/xor.csv"/>
+    <property category="archiving" name="contentRules.18" value="F:weighscore/docs/releasenotes.txt;weighscore/docs/releasenotes.txt"/>
+    <property category="archiving" name="contentRules.19" value="F:weighscore/docs/wsuserman.pdf;weighscore/docs/wsuserman.pdf"/>
+    <property category="archiving" name="contentRules.2" value="F:weighscore/nnt.config;weighscore/nnt.config"/>
+    <property category="archiving" name="contentRules.20" value="F:weighscore/readme.txt;weighscore/readme.txt"/>
+    <property category="archiving" name="contentRules.21" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Activation.html;weighscore/bonus/javadoc/com/weighscore/neuro/Activation.html"/>
+    <property category="archiving" name="contentRules.22" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Signal.html;weighscore/bonus/javadoc/com/weighscore/neuro/Signal.html"/>
+    <property category="archiving" name="contentRules.23" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Statistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/Statistic.html"/>
+    <property category="archiving" name="contentRules.24" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Teacher.html;weighscore/bonus/javadoc/com/weighscore/neuro/Teacher.html"/>
+    <property category="archiving" name="contentRules.25" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/ParameterHolder.html;weighscore/bonus/javadoc/com/weighscore/neuro/ParameterHolder.html"/>
+    <property category="archiving" name="contentRules.26" value="F:weighscore/NeuralNetwork.dtd;weighscore/NeuralNetwork.dtd"/>
+    <property category="archiving" name="contentRules.27" value="F:weighscore/NeuralNetwork.nn;weighscore/NeuralNetwork.nn"/>
+    <property category="archiving" name="contentRules.28" value="F:weighscore/simpleApp.nn;weighscore/simpleApp.nn"/>
+    <property category="archiving" name="contentRules.29" value="F:weighscore/lib/csvjdbc/csvjdbc.jar;weighscore/lib/csvjdbc/csvjdbc.jar"/>
+    <property category="archiving" name="contentRules.3" value="F:weighscore/license.cli.txt;weighscore/license.cli.txt"/>
+    <property category="archiving" name="contentRules.30" value="F:weighscore/lib/csvjdbc/CsvJdbcLogo.jpg;weighscore/lib/csvjdbc/CsvJdbcLogo.jpg"/>
+    <property category="archiving" name="contentRules.31" value="F:weighscore/lib/csvjdbc/license.txt;weighscore/lib/csvjdbc/license.txt"/>
+    <property category="archiving" name="contentRules.32" value="F:weighscore/lib/csvjdbc/readme.html;weighscore/lib/csvjdbc/readme.html"/>
+    <property category="archiving" name="contentRules.33" value="F:weighscore/lib/csvjdbc/releasenotes.html;weighscore/lib/csvjdbc/releasenotes.html"/>
+    <property category="archiving" name="contentRules.34" value="F:weighscore/lib/csvjdbc/javadoc/allclasses-frame.html;weighscore/lib/csvjdbc/javadoc/allclasses-frame.html"/>
+    <property category="archiving" name="contentRules.35" value="F:weighscore/lib/csvjdbc/javadoc/allclasses-noframe.html;weighscore/lib/csvjdbc/javadoc/allclasses-noframe.html"/>
+    <property category="archiving" name="contentRules.36" value="F:weighscore/lib/csvjdbc/javadoc/constant-values.html;weighscore/lib/csvjdbc/javadoc/constant-values.html"/>
+    <property category="archiving" name="contentRules.37" value="F:weighscore/lib/csvjdbc/javadoc/deprecated-list.html;weighscore/lib/csvjdbc/javadoc/deprecated-list.html"/>
+    <property category="archiving" name="contentRules.38" value="F:weighscore/lib/csvjdbc/javadoc/help-doc.html;weighscore/lib/csvjdbc/javadoc/help-doc.html"/>
+    <property category="archiving" name="contentRules.39" value="F:weighscore/lib/csvjdbc/javadoc/index.html;weighscore/lib/csvjdbc/javadoc/index.html"/>
+    <property category="archiving" name="contentRules.4" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/LastErrorStatistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/LastErrorStatistic.html"/>
+    <property category="archiving" name="contentRules.40" value="F:weighscore/lib/csvjdbc/javadoc/index-all.html;weighscore/lib/csvjdbc/javadoc/index-all.html"/>
+    <property category="archiving" name="contentRules.41" value="F:weighscore/lib/csvjdbc/javadoc/overview-frame.html;weighscore/lib/csvjdbc/javadoc/overview-frame.html"/>
+    <property category="archiving" name="contentRules.42" value="F:weighscore/lib/csvjdbc/javadoc/overview-summary.html;weighscore/lib/csvjdbc/javadoc/overview-summary.html"/>
+    <property category="archiving" name="contentRules.43" value="F:weighscore/lib/csvjdbc/javadoc/overview-tree.html;weighscore/lib/csvjdbc/javadoc/overview-tree.html"/>
+    <property category="archiving" name="contentRules.44" value="F:weighscore/lib/csvjdbc/javadoc/package-list;weighscore/lib/csvjdbc/javadoc/package-list"/>
+    <property category="archiving" name="contentRules.45" value="F:weighscore/lib/csvjdbc/javadoc/packages.html;weighscore/lib/csvjdbc/javadoc/packages.html"/>
+    <property category="archiving" name="contentRules.46" value="F:weighscore/lib/csvjdbc/javadoc/stylesheet.css;weighscore/lib/csvjdbc/javadoc/stylesheet.css"/>
+    <property category="archiving" name="contentRules.47" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvConnection.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvConnection.html"/>
+    <property category="archiving" name="contentRules.48" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvDatabaseMetaData.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvDatabaseMetaData.html"/>
+    <property category="archiving" name="contentRules.49" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvDriver.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvDriver.html"/>
+    <property category="archiving" name="contentRules.5" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Linear.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Linear.html"/>
+    <property category="archiving" name="contentRules.50" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvReader.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvReader.html"/>
+    <property category="archiving" name="contentRules.51" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CSVReaderAdapter.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CSVReaderAdapter.html"/>
+    <property category="archiving" name="contentRules.52" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvResultSet.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvResultSet.html"/>
+    <property category="archiving" name="contentRules.53" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvResultSetMetaData.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvResultSetMetaData.html"/>
+    <property category="archiving" name="contentRules.54" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CSVScrollableReader.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CSVScrollableReader.html"/>
+    <property category="archiving" name="contentRules.55" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvStatement.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/CsvStatement.html"/>
+    <property category="archiving" name="contentRules.56" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/package-frame.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/package-frame.html"/>
+    <property category="archiving" name="contentRules.57" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/package-summary.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/package-summary.html"/>
+    <property category="archiving" name="contentRules.58" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/package-tree.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/package-tree.html"/>
+    <property category="archiving" name="contentRules.59" value="F:weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/SqlParser.html;weighscore/lib/csvjdbc/javadoc/org/relique/jdbc/csv/SqlParser.html"/>
+    <property category="archiving" name="contentRules.6" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/MomentumStatistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/MomentumStatistic.html"/>
+    <property category="archiving" name="contentRules.60" value="F:weighscore/lib/csvjdbc/javadoc/resources/inherit.gif;weighscore/lib/csvjdbc/javadoc/resources/inherit.gif"/>
+    <property category="archiving" name="contentRules.61" value="F:weighscore/lib/csvjdbc/src/build/build.xml;weighscore/lib/csvjdbc/src/build/build.xml"/>
+    <property category="archiving" name="contentRules.62" value="F:weighscore/lib/csvjdbc/src/lib/readme.txt;weighscore/lib/csvjdbc/src/lib/readme.txt"/>
+    <property category="archiving" name="contentRules.63" value="F:weighscore/lib/csvjdbc/src/src/doc/CsvJdbcLogo.jpg;weighscore/lib/csvjdbc/src/src/doc/CsvJdbcLogo.jpg"/>
+    <property category="archiving" name="contentRules.64" value="F:weighscore/lib/csvjdbc/src/src/doc/license.txt;weighscore/lib/csvjdbc/src/src/doc/license.txt"/>
+    <property category="archiving" name="contentRules.65" value="F:weighscore/lib/csvjdbc/src/src/doc/Non_Scrollable_Driver_Class_Diagram.gif;weighscore/lib/csvjdbc/src/src/doc/Non_Scrollable_Driver_Class_Diagram.gif"/>
+    <property category="archiving" name="contentRules.66" value="F:weighscore/lib/csvjdbc/src/src/doc/readme.html;weighscore/lib/csvjdbc/src/src/doc/readme.html"/>
+    <property category="archiving" name="contentRules.67" value="F:weighscore/lib/csvjdbc/src/src/doc/releasenotes.html;weighscore/lib/csvjdbc/src/src/doc/releasenotes.html"/>
+    <property category="archiving" name="contentRules.68" value="F:weighscore/lib/csvjdbc/src/src/doc/Scrollable_Driver_Class_Diagram.gif;weighscore/lib/csvjdbc/src/src/doc/Scrollable_Driver_Class_Diagram.gif"/>
+    <property category="archiving" name="contentRules.69" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvConnection.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvConnection.java"/>
+    <property category="archiving" name="contentRules.7" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Sigmoid.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Sigmoid.html"/>
+    <property category="archiving" name="contentRules.70" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDatabaseMetaData.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDatabaseMetaData.java"/>
+    <property category="archiving" name="contentRules.71" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDriver.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvDriver.java"/>
+    <property category="archiving" name="contentRules.72" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvReader.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvReader.java"/>
+    <property category="archiving" name="contentRules.73" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVReaderAdapter.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVReaderAdapter.java"/>
+    <property category="archiving" name="contentRules.74" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSet.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSet.java"/>
+    <property category="archiving" name="contentRules.75" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSetMetaData.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvResultSetMetaData.java"/>
+    <property category="archiving" name="contentRules.76" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVScrollableReader.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CSVScrollableReader.java"/>
+    <property category="archiving" name="contentRules.77" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvStatement.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/CsvStatement.java"/>
+    <property category="archiving" name="contentRules.78" value="F:weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/SqlParser.java;weighscore/lib/csvjdbc/src/src/java/org/relique/jdbc/csv/SqlParser.java"/>
+    <property category="archiving" name="contentRules.79" value="F:weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/RunTests.java;weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/RunTests.java"/>
+    <property category="archiving" name="contentRules.8" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/SimpleTeacher.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/SimpleTeacher.html"/>
+    <property category="archiving" name="contentRules.80" value="F:weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/TestCsvDriver.java;weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/TestCsvDriver.java"/>
+    <property category="archiving" name="contentRules.81" value="F:weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/TestScrollableDriver.java;weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/TestScrollableDriver.java"/>
+    <property category="archiving" name="contentRules.82" value="F:weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/TestSqlParser.java;weighscore/lib/csvjdbc/src/src/java/test/org/relique/jdbc/csv/TestSqlParser.java"/>
+    <property category="archiving" name="contentRules.83" value="F:weighscore/lib/csvjdbc/src/src/testdata/sample2.csv;weighscore/lib/csvjdbc/src/src/testdata/sample2.csv"/>
+    <property category="archiving" name="contentRules.84" value="F:weighscore/lib/csvjdbc/src/src/testdata/sample3.csv;weighscore/lib/csvjdbc/src/src/testdata/sample3.csv"/>
+    <property category="archiving" name="contentRules.85" value="F:weighscore/lib/csvjdbc/src/src/testdata/sample4.csv;weighscore/lib/csvjdbc/src/src/testdata/sample4.csv"/>
+    <property category="archiving" name="contentRules.86" value="F:weighscore/lib/csvjdbc/src/src/testdata/sample.csv;weighscore/lib/csvjdbc/src/src/testdata/sample.csv"/>
+    <property category="archiving" name="contentRules.87" value="F:weighscore/lib/csvjdbc/src/src/testdata/sample.txt;weighscore/lib/csvjdbc/src/src/testdata/sample.txt"/>
+    <property category="archiving" name="contentRules.9" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/AverageGradientStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/AverageGradientStatistic.java"/>
+    <property category="archiving" name="includeManifest" value="0"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore/arch/weighscore-cli.zip"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Archive Personal NoDocNoCsvJdbc" type="Archive">
+    <property category="archiving" name="contentRules.1" value="F:weighscore/license.cli.txt;weighscore/license.cli.txt"/>
+    <property category="archiving" name="contentRules.10" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/Linear.java;weighscore/bonus/src/com/weighscore/neuro/plugins/Linear.java"/>
+    <property category="archiving" name="contentRules.11" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/MomentumStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/MomentumStatistic.java"/>
+    <property category="archiving" name="contentRules.12" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/NoStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/NoStatistic.java"/>
+    <property category="archiving" name="contentRules.13" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/Sigmoid.java;weighscore/bonus/src/com/weighscore/neuro/plugins/Sigmoid.java"/>
+    <property category="archiving" name="contentRules.14" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/SimpleTeacher.java;weighscore/bonus/src/com/weighscore/neuro/plugins/SimpleTeacher.java"/>
+    <property category="archiving" name="contentRules.15" value="F:weighscore/data/simpleApp.csv;weighscore/data/simpleApp.csv"/>
+    <property category="archiving" name="contentRules.16" value="F:weighscore/data/xor.csv;weighscore/data/xor.csv"/>
+    <property category="archiving" name="contentRules.17" value="F:weighscore/docs/releasenotes.txt;weighscore/docs/releasenotes.txt"/>
+    <property category="archiving" name="contentRules.18" value="F:weighscore/readme.txt;weighscore/readme.txt"/>
+    <property category="archiving" name="contentRules.19" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Activation.html;weighscore/bonus/javadoc/com/weighscore/neuro/Activation.html"/>
+    <property category="archiving" name="contentRules.2" value="F:weighscore/nnt.config;weighscore/nnt.config"/>
+    <property category="archiving" name="contentRules.20" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Signal.html;weighscore/bonus/javadoc/com/weighscore/neuro/Signal.html"/>
+    <property category="archiving" name="contentRules.21" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Statistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/Statistic.html"/>
+    <property category="archiving" name="contentRules.22" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/Teacher.html;weighscore/bonus/javadoc/com/weighscore/neuro/Teacher.html"/>
+    <property category="archiving" name="contentRules.23" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/ParameterHolder.html;weighscore/bonus/javadoc/com/weighscore/neuro/ParameterHolder.html"/>
+    <property category="archiving" name="contentRules.24" value="F:weighscore/NeuralNetwork.dtd;weighscore/NeuralNetwork.dtd"/>
+    <property category="archiving" name="contentRules.25" value="F:weighscore/NeuralNetwork.nn;weighscore/NeuralNetwork.nn"/>
+    <property category="archiving" name="contentRules.26" value="F:weighscore/simpleApp.nn;weighscore/simpleApp.nn"/>
+    <property category="archiving" name="contentRules.27" value="F:weighscore/weighscore-cli.jar;weighscore/weighscore-cli.jar"/>
+    <property category="archiving" name="contentRules.3" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/LastErrorStatistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/LastErrorStatistic.html"/>
+    <property category="archiving" name="contentRules.4" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Linear.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Linear.html"/>
+    <property category="archiving" name="contentRules.5" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/MomentumStatistic.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/MomentumStatistic.html"/>
+    <property category="archiving" name="contentRules.6" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Sigmoid.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/Sigmoid.html"/>
+    <property category="archiving" name="contentRules.7" value="F:weighscore/bonus/javadoc/com/weighscore/neuro/plugins/SimpleTeacher.html;weighscore/bonus/javadoc/com/weighscore/neuro/plugins/SimpleTeacher.html"/>
+    <property category="archiving" name="contentRules.8" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/AverageGradientStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/AverageGradientStatistic.java"/>
+    <property category="archiving" name="contentRules.9" value="F:weighscore/bonus/src/com/weighscore/neuro/plugins/LastErrorStatistic.java;weighscore/bonus/src/com/weighscore/neuro/plugins/LastErrorStatistic.java"/>
+    <property category="archiving" name="includeManifest" value="0"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore/arch/weighscore-cli-small.zip"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Enterprize client" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.2" value="X:com/weighscore/neuro/plugins/ConjugateGradientTeacher.class"/>
+    <property category="archiving" name="contentRules.3" value="X:com/weighscore/neuro/server/*.*"/>
+    <property category="archiving" name="manifestMainClass" value="com.weighscore.neuro.nnt"/>
+    <property category="archiving" name="overrideManifestPath" value="MANIFEST.MF"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore/weighscore-ecli.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Personal client" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.2" value="X:com/weighscore/neuro/NeuralNetworkFactory.class"/>
+    <property category="archiving" name="contentRules.3" value="X:com/weighscore/neuro/server/*.*"/>
+    <property category="archiving" name="contentRules.4" value="X:com/weighscore/neuro/NeuralNetworkRemote.class"/>
+    <property category="archiving" name="contentRules.5" value="X:com/weighscore/neuro/plugins/ConjugateGradientTeacher.class"/>
+    <property category="archiving" name="manifestConfigFile" value="6"/>
+    <property category="archiving" name="manifestMainClass" value="com.weighscore.neuro.nnt"/>
+    <property category="archiving" name="overrideManifestPath" value="MANIFEST.MF"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore/weighscore-cli.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Server" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.2" value="X:com/weighscore/neuro/nnt.class"/>
+    <property category="archiving" name="contentRules.3" value="X:com/weighscore/neuro/plugins/ConjugateGradientTeacher.class"/>
+    <property category="archiving" name="contentRules.4" value="X:com/weighscore/neuro/server/neural.class"/>
+    <property category="archiving" name="manifestMainClass" value="com.weighscore.neuro.server.nns"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore/weighscore-server.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <file path="weighscore/license.cli.txt"/>
+  <file path="weighscore/license.nns.txt"/>
+  <file path="MANIFEST.MF"/>
+  <file path="neural.config"/>
+  <file path="NeuralNetwork.dtd"/>
+  <file path="NeuralNetwork.xml"/>
+  <file path="nnt.config"/>
+  <file path="Translator.dtd"/>
+  <file path="Translator.xml"/>
+  <file path="../data/neuralareas/test/Xor.xml"/>
+</project>

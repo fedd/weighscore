@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE translator SYSTEM "Translator.dtd">
+<translator>
+  <field name="x1" type="ask">
+    <pass>
+      <activator index="1"/>
+    </pass>
+  </field>
+  <field name="x2" type="ask">
+    <pass>
+      <activator index="2"/>
+    </pass>
+  </field>
+  <field name="result" type="answer">
+    <pass>
+      <activator index="1"/>
+    </pass>
+  </field>
+</translator>

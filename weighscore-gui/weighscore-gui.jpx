@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="generalFormatting" name="baseCodeStyle" value="java/Java Standard.codestyle"/>
+  <property category="generalFormatting2" name="blockIndent" value="4"/>
+  <property category="generalFormatting2" name="continuationIndent" value="8"/>
+  <property category="generalFormatting2" name="overrideBasicFormatting" value="1"/>
+  <property category="javaFormatting" name="alignMultilineAssign" value="1"/>
+  <property category="javaFormatting" name="arrayInitDataOnNewLine" value="0"/>
+  <property category="javaFormatting" name="blankLinesAfterClass" value="2"/>
+  <property category="javaFormatting" name="catchOnNewLine" value="0"/>
+  <property category="javaFormatting" name="elseOnNewLine" value="0"/>
+  <property category="javaFormatting" name="extendsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="finallyOnNewLine" value="0"/>
+  <property category="javaFormatting" name="implementsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="indentCase" value="0"/>
+  <property category="javaFormatting" name="packagePrefixGroups" value="java;BLANK_LINE;javax;BLANK_LINE;(*)"/>
+  <property category="javaFormatting" name="packageThreshold" value="2"/>
+  <property category="javaFormatting" name="preservedBlankLinesInDecl" value="2"/>
+  <property category="javaFormatting" name="spaceBeforeLparen" value="0"/>
+  <property category="javaFormatting" name="whileOnNewLine" value="0"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="runtime" name="ConfigurationCount" value="1"/>
+  <property category="runtime" name="DefaultConfiguration" value="-1"/>
+  <property category="runtime.0" name="ConfigurationName" value="nng"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="com.weighscore.neuro.gui.nng"/>
+  <property category="runtime.1" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.1" name="ConfigurationName" value="chart"/>
+  <property category="runtime.1" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.1" name="application.class" value="com.weighscore.neuro.gui.ChartView"/>
+  <property category="runtime.1" name="application.parameters" value="NeuralNetwork.nn.progress "/>
+  <property category="serverservices" name="disabled.services" value="jdatastore"/>
+  <property category="serverservices" name="single.server.name" value=""/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value="Vsetech Company"/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2006"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_04-b05"/>
+  <property category="sys" name="JvmVersion" value="1.2"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="Weighscore Core;JUNG;commons-collections;JBCL;JFreeChart"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="sys" name="palette.bean.chooser.beans" value="edu.uci.ics.jung.visualization.GraphZoomScrollPane;org.jfree.chart.ChartPanel;"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.ActionForm" value="514,300"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.Editor_AboutBox" value="548,140"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.NetworkPropsEditor" value="506,134"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.NeuronEditor" value="516,120"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.PropertiesEditor" value="400,208"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.SaveAsDialog" value="510,365"/>
+  <property category="sys" name="uidesign.size.com.weighscore.neuro.gui.chart.ChartView" value="427,312"/>
+  <node name="Jar Chart" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:com/weighscore/neuro/gui/ChartView.class"/>
+    <property category="archiving" name="contentRules.2" value="F:src/com/weighscore/neuro/gui/arrange.png;com/weighscore/neuro/gui/arrange.png"/>
+    <property category="archiving" name="manifestConfigFile" value="0"/>
+    <property category="archiving" name="manifestMainClass" value="com.weighscore.neuro.gui.ChartView"/>
+    <property category="archiving" name="overrideManifestPath" value="src/META-INF/manifest-chart.mf"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore-gui/weighscore-chart.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Jar Full" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.2" value="X:com/weighscore/neuro/gui/ChartView.class"/>
+    <property category="archiving" name="contentRules.3" value="X:com/weighscore/neuro/gui/graph/*.*"/>
+    <property category="archiving" name="manifestConfigFile" value="0"/>
+    <property category="archiving" name="overrideManifestPath" value="src/META-INF/MANIFEST.MF"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore-gui/weighscore-gui.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Jar Graph" type="Archive">
+    <property category="archiving" name="contentRules.1" value="I:com/weighscore/neuro/gui/graph/*.*"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore-gui/lib/neuralgraph/neuralgraph.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <node name="Jar No Jdbc" type="Archive">
+    <property category="archiving" name="archiverClass" value="com.borland.jbuilder.wizard.archive.ApplicationArchiver"/>
+    <property category="archiving" name="contentRules.1" value="I:**/*.*"/>
+    <property category="archiving" name="contentRules.2" value="X:com/weighscore/neuro/gui/JdbcAction.class"/>
+    <property category="archiving" name="contentRules.3" value="X:com/weighscore/neuro/gui/ChartView.class"/>
+    <property category="archiving" name="contentRules.4" value="X:com/weighscore/neuro/gui/graph/*.*"/>
+    <property category="archiving" name="manifestConfigFile" value="0"/>
+    <property category="archiving" name="overrideManifestPath" value="src/META-INF/MANIFEST-lite.MF"/>
+    <property category="archiving" name="targetCompressed" value="1"/>
+    <property category="archiving" name="targetPath" value="weighscore-gui/weighscore-glt.jar"/>
+    <property category="archiving" name="usingRules" value="1"/>
+  </node>
+  <file path="src/com/weighscore/neuro/gui/arrange.png"/>
+  <file path="src/com/weighscore/neuro/gui/close.png"/>
+  <file path="src/com/weighscore/neuro/gui/draw.png"/>
+  <file path="src/META-INF/MANIFEST.MF"/>
+  <file path="src/META-INF/manifest-chart.mf"/>
+  <file path="src/META-INF/MANIFEST-lite.MF"/>
+  <file path="src/com/weighscore/neuro/gui/move.png"/>
+  <file path="src/com/weighscore/neuro/gui/new.png"/>
+  <file path="src/com/weighscore/neuro/gui/open.png"/>
+  <file path="src/com/weighscore/neuro/gui/pick.png"/>
+  <file path="src/com/weighscore/neuro/gui/save.png"/>
+</project>

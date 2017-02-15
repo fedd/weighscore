@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuralNetwork xmlns:xlink="http://www.w3.org/1999/xlink">
+  <translator>
+    <field name="age" type="ask">
+      <pass dividor="100.0">
+        <activator index="1"/>
+      </pass>
+    </field>
+    <field name="gender" type="ask">
+      <translate>
+        <item value="m">
+          <activator index="2">
+            <range value="1.0" min="0.0"/>
+          </activator>
+        </item>
+        <item value="f">
+          <activator index="2">
+            <range value="0.0" max="0.0"/>
+          </activator>
+        </item>
+      </translate>
+    </field>
+    <field name="income" type="ask">
+      <pass dividor="1000.0">
+        <activator index="3"/>
+      </pass>
+    </field>
+    <field name="education" type="ask">
+      <translate>
+        <item value="higher">
+          <activator index="4">
+            <range value="1.0" min="0.01"/>
+          </activator>
+        </item>
+        <item value="high">
+          <activator index="5">
+            <range value="1.0" min="0.01"/>
+          </activator>
+        </item>
+        <item value="low">
+          <activator index="6">
+            <range value="1.0" min="0.01"/>
+          </activator>
+        </item>
+      </translate>
+    </field>
+    <field name="goodbad" type="answer">
+      <translate>
+        <item value="good">
+          <activator index="1">
+            <range value="1.0" min="0.0"/>
+          </activator>
+        </item>
+        <item value="bad">
+          <activator index="1">
+            <range value="0.0" max="0.0"/>
+          </activator>
+        </item>
+      </translate>
+    </field>
+  </translator>
+  <teacher class="SimpleTeacher">
+    <parameter name="momentumCoefficient">0.7</parameter>
+    <parameter name="learnRate">0.4</parameter>
+  </teacher>
+  <neuron threshold="-0.0765360557387122" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="1.0119558412024563" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">1.0097887388374455E-6</parameter>
+        </statistic>
+      </synapse>
+      <synapse weight="1.087973104944111" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">4.037360924146602E-6</parameter>
+        </statistic>
+      </synapse>
+      <synapse weight="0.6929647172407807" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-2.837735034725143E-6</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">3.035966737752971E-6</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.05723345212699791" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.028952427307137384" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">1.853323019641859E-5</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">7.947221074935822E-7</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="-0.12671789620379365" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="2.0468805023689147" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">1.2718165376476911E-5</parameter>
+        </statistic>
+      </synapse>
+      <synapse weight="1.3851320233506383" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">9.63375983605474E-6</parameter>
+        </statistic>
+      </synapse>
+      <synapse weight="0.9182287251856025" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">9.848008555333746E-6</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">-1.6881330235377435E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.43808344026970736" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="3.9773348973098965" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-1.3701564622599854E-5</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">2.4653124731118924E-4</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.8988044325761522" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="1.8703999848377777" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-2.3419162451459837E-4</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">1.1743147853612791E-4</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="-0.4791674566935127" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-5.961696302725292" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-5.6817585990935034E-8</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">-3.6955069913421706E-4</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.7483773737835714">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.3914887802354612" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">4.9E-324</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">3.298509661831589E-6</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.30626415583833927">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="1.5889644259442006" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">7.274380479281662E-5</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">1.3522076297244859E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.18197771580927247">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-1.0476609704697957" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">7.274380479281662E-5</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">-8.529036708044759E-6</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.569605030020037">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-3.5028328007011487" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">8.9769934122683E-7</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">-1.770935922293083E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.26061240886236836">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-2.046377415271229" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-3.315011602529978E-5</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">-1.3433934298146627E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="-0.18724677572932935">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-1.8455822104416928" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-3.315011602529978E-5</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">-1.3797377417776192E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.383845898766438">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.006375068621060431" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">4.9E-324</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">3.158657512736685E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.8333848516493837">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.02626009265087382" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-4.9E-324</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">1.0768288802769121E-4</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.9790417620587748">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0167395819298976" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">4.9E-324</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">3.315011602529978E-5</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.8639614205776933">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.027226287610166947" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes="MomentumStatistic">
+          <parameter name="teachCnt">99000</parameter>
+          <parameter name="lastCorrection">-0.0996475086571471</parameter>
+        </statistic>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">2.4795000672318953E-4</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="-0.26497660330156525" output="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">99003</parameter>
+      <parameter name="lastCorrection">0.016402007361203508</parameter>
+    </statistic>
+  </neuron>
+</neuralNetwork>

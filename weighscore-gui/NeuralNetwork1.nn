@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE neuralNetwork SYSTEM "NeuralNetwork.dtd">
+<neuralNetwork xmlns:xlink="http://www.w3.org/1999/xlink" translator="TransXor.xml">
+  <translator>
+    <field name="x1" type="ask">
+      <pass>
+        <activator index="1"/>
+      </pass>
+    </field>
+    <field name="x2" type="ask">
+      <pass>
+        <activator index="2"/>
+      </pass>
+    </field>
+    <field name="result" type="answer">
+      <pass>
+        <activator index="1"/>
+      </pass>
+    </field>
+  </translator>
+  <teacher class="SimpleTeacher">
+    <parameter name="learnRate">0.4</parameter>
+    <parameter name="momentumCoefficient">0.2</parameter>
+  </teacher>
+  <neuron input="true">
+    <statistic classes="MomentumStatistic"/>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[3])">
+	<statistic classes="MomentumStatistic"/>
+      </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[4])">
+	<statistic classes="MomentumStatistic"/>
+      </synapse>
+    </axon>
+  </neuron>
+  <neuron input="true">
+    <statistic classes="MomentumStatistic"/>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[3])">
+	<statistic classes="MomentumStatistic"/>
+      </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[4])">
+	<statistic classes="MomentumStatistic"/>
+      </synapse>
+    </axon>
+  </neuron>
+  <neuron>
+    <statistic classes="MomentumStatistic"/>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[5])">
+	<statistic classes="MomentumStatistic"/>
+      </synapse>
+    </axon>
+  </neuron>
+  <neuron>
+    <statistic classes="MomentumStatistic"/>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[5])">
+	<statistic classes="MomentumStatistic"/>
+      </synapse>
+    </axon>
+  </neuron>
+  <neuron output="true">
+    <statistic classes="MomentumStatistic"/>
+  </neuron>
+</neuralNetwork>       

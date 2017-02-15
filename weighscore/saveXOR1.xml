@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuralNetwork translator="TransXor.xml" xmlns:xlink="http://www.w3.org/1999/xlink">
+<teacher class="com.vsetech.neuro.SimpleTeacher">
+<parameter name="momentumCoefficient">0.2</parameter>
+<parameter name="learnRate">0.4</parameter>
+</teacher>
+<neuron input="true" threshold="-10.36341504399027">
+<activation class="com.vsetech.neuro.Sigmoid">
+<parameter name="beta">1.0</parameter>
+</activation>
+<axon>
+<synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[3])" weight="-1.721891229589497">
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">0.500000000000005</parameter>
+<parameter name="askAvgPosDev">0.4997553066080426</parameter>
+<parameter name="askAvgNegDev">-0.49960363383085715</parameter>
+<parameter name="askPosDevCnt">3999</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">4.902516329906687E-4</parameter>
+<parameter name="errAvgPosDev">0.013411311151018773</parameter>
+<parameter name="errPosDevCnt">6899</parameter>
+<parameter name="errAvgNegDev">-0.07464133930937225</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">4.1699902594022115E-4</parameter>
+<parameter name="lastAvgErrAbs">0.01050468357413602</parameter>
+<parameter name="lastAvgErrDev">4.072911625520112E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.010621246532046581</parameter>
+<parameter name="lastCorrection">0.0</parameter>
+<parameter name="teachCnt">0</parameter>
+</statistic>
+</synapse>
+<synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[4])" weight="-2.1886179614130787">
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">0.500000000000005</parameter>
+<parameter name="askAvgPosDev">0.4997553066080426</parameter>
+<parameter name="askAvgNegDev">-0.49960363383085715</parameter>
+<parameter name="askPosDevCnt">3999</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">-0.0015280638222100345</parameter>
+<parameter name="errAvgPosDev">0.09415936517726918</parameter>
+<parameter name="errPosDevCnt">1089</parameter>
+<parameter name="errAvgNegDev">-0.019044887141060476</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">-4.7429731551414177E-4</parameter>
+<parameter name="lastAvgErrAbs">0.010935333336209</parameter>
+<parameter name="lastAvgErrDev">-4.236534556278674E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.011058104042177094</parameter>
+<parameter name="lastCorrection">0.0</parameter>
+<parameter name="teachCnt">0</parameter>
+</statistic>
+</synapse>
+</axon>
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">0</parameter>
+<parameter name="askAvg">0.0</parameter>
+<parameter name="askAvgPosDev">0.0</parameter>
+<parameter name="askAvgNegDev">0.0</parameter>
+<parameter name="askPosDevCnt">0</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">0.001363872049329077</parameter>
+<parameter name="errAvgPosDev">0.024055669348337663</parameter>
+<parameter name="errPosDevCnt">5908</parameter>
+<parameter name="errAvgNegDev">-0.056656175220059474</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">1.6248213839969327E-4</parameter>
+<parameter name="lastAvgErrAbs">0.014616175366251477</parameter>
+<parameter name="lastAvgErrDev">5.587119998078331E-5</parameter>
+<parameter name="lastAvgErrDevAbs">0.014436201910770094</parameter>
+<parameter name="lastCorrection">-2.1808607536593402E-4</parameter>
+<parameter name="teachCnt">8000</parameter>
+</statistic>
+</neuron>
+<neuron input="true" threshold="-10.304693467269335">
+<activation class="com.vsetech.neuro.Sigmoid">
+<parameter name="beta">1.0</parameter>
+</activation>
+<axon>
+<synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[3])" weight="-1.7354961647339797">
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">0.5</parameter>
+<parameter name="askAvgPosDev">0.49948377346407097</parameter>
+<parameter name="askAvgNegDev">-0.49987503124218946</parameter>
+<parameter name="askPosDevCnt">3999</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">4.1276668358699914E-4</parameter>
+<parameter name="errAvgPosDev">0.013173043212820612</parameter>
+<parameter name="errPosDevCnt">6955</parameter>
+<parameter name="errAvgNegDev">-0.07842620318839837</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">4.1756227855988784E-4</parameter>
+<parameter name="lastAvgErrAbs">0.010504120321516382</parameter>
+<parameter name="lastAvgErrDev">4.072144717666638E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.010623270303806139</parameter>
+<parameter name="lastCorrection">0.0</parameter>
+<parameter name="teachCnt">0</parameter>
+</statistic>
+</synapse>
+<synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[4])" weight="-2.227674722390423">
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">0.5</parameter>
+<parameter name="askAvgPosDev">0.49948377346407097</parameter>
+<parameter name="askAvgNegDev">-0.49987503124218946</parameter>
+<parameter name="askPosDevCnt">3999</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">-0.0015075344333792208</parameter>
+<parameter name="errAvgPosDev">0.09547554890234698</parameter>
+<parameter name="errPosDevCnt">1041</parameter>
+<parameter name="errAvgNegDev">-0.01947861107993986</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">-4.7486225861816285E-4</parameter>
+<parameter name="lastAvgErrAbs">0.010934768393104944</parameter>
+<parameter name="lastAvgErrDev">-4.2356713624259654E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.011058803328423263</parameter>
+<parameter name="lastCorrection">0.0</parameter>
+<parameter name="teachCnt">0</parameter>
+</statistic>
+</synapse>
+</axon>
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">0</parameter>
+<parameter name="askAvg">0.0</parameter>
+<parameter name="askAvgPosDev">0.0</parameter>
+<parameter name="askAvgNegDev">0.0</parameter>
+<parameter name="askPosDevCnt">0</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">0.0015327588562052108</parameter>
+<parameter name="errAvgPosDev">0.024995527380109572</parameter>
+<parameter name="errPosDevCnt">5910</parameter>
+<parameter name="errAvgNegDev">-0.05755733114676411</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">1.672497118020734E-4</parameter>
+<parameter name="lastAvgErrAbs">0.014814516447998105</parameter>
+<parameter name="lastAvgErrDev">5.9578586070248434E-5</parameter>
+<parameter name="lastAvgErrDevAbs">0.014633022946270462</parameter>
+<parameter name="lastCorrection">-1.2647398413593244E-4</parameter>
+<parameter name="teachCnt">8000</parameter>
+</statistic>
+</neuron>
+<neuron threshold="2.3558535552464512">
+<activation class="com.vsetech.neuro.Sigmoid">
+<parameter name="beta">1.0</parameter>
+</activation>
+<axon>
+<synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[5])" weight="2.1808165667151247">
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">0.30799475078889244</parameter>
+<parameter name="askAvgPosDev">1.0097758625914686</parameter>
+<parameter name="askAvgNegDev">-0.397656849206385</parameter>
+<parameter name="askPosDevCnt">2055</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">-0.005923669281845225</parameter>
+<parameter name="errAvgPosDev">0.0238724731946074</parameter>
+<parameter name="errPosDevCnt">2188</parameter>
+<parameter name="errAvgNegDev">-0.016350915825034718</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">-0.0027294667110402304</parameter>
+<parameter name="lastAvgErrAbs">0.009921686355933263</parameter>
+<parameter name="lastAvgErrDev">-1.3236774640251013E-5</parameter>
+<parameter name="lastAvgErrDevAbs">0.008485888334711813</parameter>
+<parameter name="lastCorrection">0.0</parameter>
+<parameter name="teachCnt">0</parameter>
+</statistic>
+</synapse>
+</axon>
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">0.5777249979176612</parameter>
+<parameter name="askAvgPosDev">1.4713849214861243</parameter>
+<parameter name="askAvgNegDev">-0.6232045382151621</parameter>
+<parameter name="askPosDevCnt">2055</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">-1.4216073959851747E-4</parameter>
+<parameter name="errAvgPosDev">0.024867358392912514</parameter>
+<parameter name="errPosDevCnt">5916</parameter>
+<parameter name="errAvgNegDev">-0.071380299193713</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">6.998520652191594E-4</parameter>
+<parameter name="lastAvgErrAbs">0.018149740622215443</parameter>
+<parameter name="lastAvgErrDev">6.965617436902799E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.018176849894411748</parameter>
+<parameter name="lastCorrection">-1.0527377965908555E-4</parameter>
+<parameter name="teachCnt">24000</parameter>
+</statistic>
+</neuron>
+<neuron threshold="0.8935131444499028">
+<activation class="com.vsetech.neuro.Sigmoid">
+<parameter name="beta">1.0</parameter>
+</activation>
+<axon>
+<synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[5])" weight="-2.270733209136993">
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">-0.5157859017571537</parameter>
+<parameter name="askAvgPosDev">0.3599479511192861</parameter>
+<parameter name="askAvgNegDev">-1.1899290732712433</parameter>
+<parameter name="askPosDevCnt">5979</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">0.0073535008228208095</parameter>
+<parameter name="errAvgPosDev">0.05806488612271748</parameter>
+<parameter name="errPosDevCnt">2018</parameter>
+<parameter name="errAvgNegDev">-0.018143209078825995</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">0.004079439368090437</parameter>
+<parameter name="lastAvgErrAbs">0.01143097902984306</parameter>
+<parameter name="lastAvgErrDev">-1.0036604236430875E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.009247563099291563</parameter>
+<parameter name="lastCorrection">0.0</parameter>
+<parameter name="teachCnt">0</parameter>
+</statistic>
+</synapse>
+</axon>
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">-1.2985262189343825</parameter>
+<parameter name="askAvgPosDev">1.080376682132574</parameter>
+<parameter name="askAvgNegDev">-1.059975260403385</parameter>
+<parameter name="askPosDevCnt">3949</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">-5.208504648166697E-4</parameter>
+<parameter name="errAvgPosDev">0.08511247890491606</parameter>
+<parameter name="errPosDevCnt">2081</parameter>
+<parameter name="errAvgNegDev">-0.03227508394177929</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">-7.652042308085482E-4</parameter>
+<parameter name="lastAvgErrAbs">0.018891933116126094</parameter>
+<parameter name="lastAvgErrDev">-7.247489848069671E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.018920045756346194</parameter>
+<parameter name="lastCorrection">-1.4094170697456621E-6</parameter>
+<parameter name="teachCnt">24000</parameter>
+</statistic>
+</neuron>
+<neuron output="true" threshold="-0.5362715571824935">
+<activation class="com.vsetech.neuro.Sigmoid">
+<parameter name="beta">1.0</parameter>
+</activation>
+<statistic class="com.vsetech.neuro.FullStatistic">
+<parameter name="askCnt">8000</parameter>
+<parameter name="askAvg">1.1808072561263487</parameter>
+<parameter name="askAvgPosDev">1.0234359383199518</parameter>
+<parameter name="askAvgNegDev">-1.3085836927661605</parameter>
+<parameter name="askPosDevCnt">3954</parameter>
+<parameter name="errCnt">8000</parameter>
+<parameter name="errAvg">-0.008259357694218795</parameter>
+<parameter name="errAvgPosDev">0.022086980593110424</parameter>
+<parameter name="errPosDevCnt">5916</parameter>
+<parameter name="errAvgNegDev">-0.06489929449409243</parameter>
+<parameter name="lastErrCnt">100</parameter>
+<parameter name="lastAvgErr">-0.004436052548252104</parameter>
+<parameter name="lastAvgErrAbs">0.013088142739865674</parameter>
+<parameter name="lastAvgErrDev">3.2881135421596096E-4</parameter>
+<parameter name="lastAvgErrDevAbs">0.010730034710474933</parameter>
+<parameter name="lastCorrection">-2.547174420424263E-4</parameter>
+<parameter name="teachCnt">24000</parameter>
+</statistic>
+</neuron>
+</neuralNetwork>

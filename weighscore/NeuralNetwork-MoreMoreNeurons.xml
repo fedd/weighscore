@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE neuralNetwork SYSTEM "NeuralNetwork.dtd">
+<neuralNetwork xmlns:xlink="http://www.w3.org/1999/xlink" translator="Translator.xml">
+  <teacher class="com.vsetech.neuro.EmpiricTeacher">
+    <parameter name="learnRate">0.4</parameter>
+    <parameter name="momentumCoefficient">0.2</parameter>
+  </teacher>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])"/>
+    </axon>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])"/>
+    </axon>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])"/>
+    </axon>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])"/>
+    </axon>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])"/>
+    </axon>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])"/>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])"/>
+    </axon>
+  </neuron>
+
+
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])"/>
+    </axon>
+  </neuron>
+
+
+  <neuron output="true"/>
+</neuralNetwork>

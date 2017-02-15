@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE neuralNetwork SYSTEM "NeuralNetwork.dtd">
+<neuralNetwork xmlns:xlink="http://www.w3.org/1999/xlink" translator="Translator.xml">
+  <teacher class="com.vsetech.neuro.SimpleTeacher">
+    <parameter name="learnRate">0.1</parameter>
+    <parameter name="momentumCoefficient">0.05</parameter>
+  </teacher>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">        <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron input="true">
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[18])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[19])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[20])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[21])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[22])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[23])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[24])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[25])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[26])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[27])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[28])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[29])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[30])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[31])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[32])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[33])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[34])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[35])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[36])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[37])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[38])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[39])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[40])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[41])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[42])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[43])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[44])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[45])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+
+
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+  <neuron>
+    <axon>
+      <synapse xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[46])">         <statistic class="com.vsetech.neuro.MomentumStatistic"/>       </synapse>
+    </axon>     <statistic class="com.vsetech.neuro.MomentumStatistic"/>
+  </neuron>
+
+
+  <neuron output="true"/>
+</neuralNetwork>

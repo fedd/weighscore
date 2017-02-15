@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE refactor PUBLIC "-//Borland Software Corporation//Refactor 1.0//EN" "http://www.borland.com/devsupport/jbuilder/dtds/refactor_1_0.dtd">
+<refactor>
+  <rename-class id="1AP0M6GN0VLESKPE978HPKH0" creation-time="Mon Apr 10 21:54:19.425 MSD 2006">
+    <old-class-name>com.weighscore.neuro.gui.Untitled1</old-class-name>
+    <new-class-name>com.weighscore.neuro.gui.NeuralGraph</new-class-name>
+  </rename-class>
+  <rename-class id="6AP0KFV2IKMEQSSMB78HPKH0" creation-time="Fri Apr 28 16:26:39.802 MSD 2006">
+    <old-class-name>com.weighscore.neuro.gui.NeuralNetworkGraph</old-class-name>
+    <new-class-name>com.weighscore.neuro.gui.graph.NeuralNetworkGraph</new-class-name>
+  </rename-class>
+  <rename-class id="5AP0KFV2IKMEQSSMB78HPKH0" creation-time="Fri Apr 28 16:27:20.521 MSD 2006">
+    <old-class-name>com.weighscore.neuro.gui.NeuronVertex</old-class-name>
+    <new-class-name>com.weighscore.neuro.gui.graph.NeuronVertex</new-class-name>
+  </rename-class>
+  <rename-class id="3AP0KFV2IKMEQSSMB78HPKH0" creation-time="Fri Apr 28 16:27:49.733 MSD 2006">
+    <old-class-name>com.weighscore.neuro.gui.SynapseEdge</old-class-name>
+    <new-class-name>com.weighscore.neuro.gui.graph.SynapseEdge</new-class-name>
+  </rename-class>
+  <rename-class id="1AP0KFV2IKMEQSSMB78HPKH0" creation-time="Fri Apr 28 16:40:29.565 MSD 2006">
+    <old-class-name>com.weighscore.neuro.gui.graph.NeuralEGMPligin</old-class-name>
+    <new-class-name>com.weighscore.neuro.gui.graph.NeuralEGMPlugin</new-class-name>
+  </rename-class>
+  <rename-class id="6AP03KSZ8FPEDTPT378HPKH0" creation-time="Sun Jul 09 14:12:35.593 MSD 2006">
+    <old-class-name>com.weighscore.neuro.gui.chart.ChartView</old-class-name>
+    <new-class-name>com.weighscore.neuro.gui.ChartView</new-class-name>
+  </rename-class>
+</refactor>

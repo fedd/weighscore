@@ -1,0 +1,21 @@
+<!ELEMENT translator (field*)>
+<!ELEMENT field (pass|translate)>
+<!ELEMENT pass (activator)>
+<!ELEMENT translate (item+)>
+<!ELEMENT item (activator)>
+<!ELEMENT activator (range?)>
+<!ELEMENT range (#PCDATA)>
+
+<!ATTLIST field
+  type (ask | answer) #REQUIRED
+  name CDATA #REQUIRED>
+<!ATTLIST pass
+  dividor CDATA #IMPLIED>
+<!ATTLIST item
+  value CDATA #REQUIRED>
+<!ATTLIST activator
+  index CDATA #REQUIRED>
+<!ATTLIST range
+  value CDATA #REQUIRED
+  max CDATA #IMPLIED
+  min CDATA #IMPLIED>

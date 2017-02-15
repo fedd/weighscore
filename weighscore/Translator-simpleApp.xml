@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE translator SYSTEM "Translator.dtd">
+<translator>
+  <field name="age" type="ask">
+    <pass dividor="200">
+      <activator index="1"/>
+    </pass>
+  </field>
+  <field name="gender" type="ask">
+    <translate>
+      <item value="m">
+        <activator index="2">
+          <range value="0.5" min="0"/>
+        </activator>
+      </item>
+      <item value="f">
+        <activator index="2">
+          <range value="-0.5" max="0"/>
+        </activator>
+      </item>
+    </translate>
+  </field>
+  <field name="income" type="ask">
+    <pass dividor="1000000">
+      <activator index="3"/>
+    </pass>
+  </field>
+  <field name="education" type="ask">
+    <translate>
+      <item value="higher">
+        <activator index="4">
+          <range value="0.5" min="0.01"/>
+        </activator>
+      </item>
+      <item value="high">
+        <activator index="5">
+          <range value="0.5" min="0.01"/>
+        </activator>
+      </item>
+      <item value="low">
+        <activator index="6">
+          <range value="0.5" min="0.01"/>
+        </activator>
+      </item>
+    </translate>
+  </field>
+  <field name="goodbad" type="answer">
+    <translate>
+      <item value="good">
+        <activator index="1">
+          <range value="0.5" min="0"/>
+        </activator>
+      </item>
+      <item value="bad">
+        <activator index="1">
+          <range value="-0.5" max="0"/>
+        </activator>
+      </item>
+    </translate>
+  </field>
+</translator>

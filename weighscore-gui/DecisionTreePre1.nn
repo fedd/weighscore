@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuralNetwork xmlns:xlink="http://www.w3.org/1999/xlink">
+  <translator>
+    <field name="age" type="ask">
+      <pass dividor="200.0">
+        <activator index="1"/>
+      </pass>
+    </field>
+    <field name="gender" type="ask">
+      <translate>
+        <item value="m">
+          <activator index="2">
+            <range value="1.0" min="0.0"/>
+          </activator>
+        </item>
+        <item value="f">
+          <activator index="2">
+            <range value="0.0" max="0.0"/>
+          </activator>
+        </item>
+      </translate>
+    </field>
+    <field name="income" type="ask">
+      <pass dividor="1000000.0">
+        <activator index="3"/>
+      </pass>
+    </field>
+    <field name="education" type="ask">
+      <translate>
+        <item value="higher">
+          <activator index="4">
+            <range value="1.0" min="0.01"/>
+          </activator>
+        </item>
+        <item value="high">
+          <activator index="5">
+            <range value="1.0" min="0.01"/>
+          </activator>
+        </item>
+        <item value="low">
+          <activator index="6">
+            <range value="1.0" min="0.01"/>
+          </activator>
+        </item>
+      </translate>
+    </field>
+    <field name="goodbad" type="answer">
+      <translate>
+        <item value="good">
+          <activator index="1">
+            <range value="1.0" min="0.0"/>
+          </activator>
+        </item>
+        <item value="bad">
+          <activator index="1">
+            <range value="0.0" max="0.0"/>
+          </activator>
+        </item>
+      </translate>
+    </field>
+  </translator>
+  <teacher class="SimpleTeacher">
+    <parameter name="momentumCoefficient">0.7</parameter>
+    <parameter name="learnRate">0.4</parameter>
+  </teacher>
+  <neuron threshold="0.0" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.7" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[7])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[8])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.3" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[9])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.0" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.0" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.7" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[10])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[11])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.3" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[12])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.0" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.0" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.0" input="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[13])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[14])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[15])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.0" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[16])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.5" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="0.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.32339771826308183" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.6034506271314068" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="1.5">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-0.13810636292521705" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[17])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+  <neuron threshold="2.0" output="true">
+    <activation class="Threshold">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <statistic classes="MomentumStatistic">
+      <parameter name="teachCnt">3</parameter>
+      <parameter name="lastCorrection">0.0</parameter>
+    </statistic>
+  </neuron>
+</neuralNetwork>

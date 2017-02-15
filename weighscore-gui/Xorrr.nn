@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuralNetwork xmlns:xlink="http://www.w3.org/1999/xlink">
+  <translator>
+    <field name="x1" type="ask">
+      <pass>
+        <activator index="1"/>
+      </pass>
+    </field>
+    <field name="x2" type="ask">
+      <pass>
+        <activator index="2"/>
+      </pass>
+    </field>
+    <field name="result" type="answer">
+      <pass>
+        <activator index="1"/>
+      </pass>
+    </field>
+  </translator>
+  <teacher class="SimpleTeacher">
+    <parameter name="momentumCoefficient">0.2</parameter>
+    <parameter name="learnRate">0.4</parameter>
+  </teacher>
+  <neuron threshold="-0.45591981280693106" input="true">
+    <activation class="Sigmoid">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-0.9358506756149709" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[3])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="-0.7071462436067599" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[4])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes=""/>
+  </neuron>
+  <neuron threshold="-0.9860988507887236" input="true">
+    <activation class="Sigmoid">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="-0.5937488290250363" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[3])">
+        <statistic classes=""/>
+      </synapse>
+      <synapse weight="0.4388263300605031" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[4])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes=""/>
+  </neuron>
+  <neuron threshold="-0.6973405454070667">
+    <activation class="Sigmoid">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.19031882670879474" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[5])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes=""/>
+  </neuron>
+  <neuron threshold="0.3660576138036227">
+    <activation class="Sigmoid">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <axon>
+      <synapse weight="0.09896606062325985" xlink:type="locator" xlink:href="#xpointer(/neuralNetwork/neuron[5])">
+        <statistic classes=""/>
+      </synapse>
+    </axon>
+    <statistic classes=""/>
+  </neuron>
+  <neuron threshold="-0.6973832546605692" output="true">
+    <activation class="Sigmoid">
+      <parameter name="beta">1.0</parameter>
+    </activation>
+    <statistic classes=""/>
+  </neuron>
+</neuralNetwork>

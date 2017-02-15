@@ -1,0 +1,22 @@
+The Weighscore ships with a JWS file that may be easily deployed as a
+webservice with Apache's Axis. To run Weighscore Neural Server as an Axis
+webservice, you should have Axis installed and run. 
+
+Axis is a free opensource web service toolkit. See Axis' homepage,
+http://ws.apache.org/axis/ for more information. See Axis documentation found
+on that site as well as W3C SOAP specification on webservices on
+http://www.w3.org/TR/soap/ to understand details on webservices calling.
+
+To deploy the Neural Network Server as a webservice, perform the following easy
+steps:
+
+1) copy weighscore-server.jar into the Axis webapp library directory
+(WEB-INF/lib);
+
+2) copy neural.jws file into the Axis webapp (but not to WEB-INF tree);
+
+3) test the webservice by pointing your browser at
+http://localhost:8080/axis/neural.jws?wsdl
+This will return an XML stream describing the neural webservice. Knowing the
+call format, you may now program the webservice SOAP calls with virtually any
+platform including Java, .NET, VB, Delphi, Perl, VBScript and many others.

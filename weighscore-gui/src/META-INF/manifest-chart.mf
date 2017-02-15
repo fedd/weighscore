@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/jfreechart/jcommon-1.0.0.jar lib/jfreechart/jfreechart-1.0.1.jar
+Main-Class: com.weighscore.neuro.gui.ChartView
