@@ -1,3 +1,5 @@
+This was my project from 2006.
+
 # Weighscore
 
 The Weighscore Neural Network Server gives the ability to train neural networks online, simultaneously with their querying. When new data that characterizes the response that was given earlier arrives, the network may be slightly updated using the new data without stopping.
