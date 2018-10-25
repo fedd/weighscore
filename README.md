@@ -14,3 +14,5 @@ Moreover, there are the following advantages:
 - is well documented;
 - easily called with a simple protocol - there are examples for java and winsock in the reference manual; 
 - callable as an Axis webservice - easy to call from almost any client platform.
+
+[See manual](Materials/doc/wsuserman.pdf)
